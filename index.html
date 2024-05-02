@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <main>
+        <form action="index.html" method="post">
+            <h1>Formulário de login</h1>
+            <img class="imagem" src="img/avatar-login.png" alt="Defalt Avatar"> 
+            <label for="usuario">Usuário:</label><br>
+            <input type="text" id="usuario" name="usuario" placeholder="Entre com seu nome de usuário" required><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" placeholder="Entre com sua senha" required><br>
+            <label for="tipo_conta">Tipo de Conta:</label><br>
+            <select id="tipo_conta" name="tipo_conta">
+                <option value="cliente">Cliente</option>
+                <option value="administrador">Administrador</option>
+            </select><br>
+            <input type="submit" value="Entrar">
+        </form>
+        <div class="senha"><a href="senha.html"> Esqueceu sua senha? </a></div>
+    </main>
+</body>
+</html>
